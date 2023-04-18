@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+</head>
+<body>
+  <section>
+    <article>
+      <form action="" method="post">
+        <label for="nom">Nom</label>
+        <input type="text" name="nom" id="nom">
+
+        <!-- On affiche l'image générée par notre script -->
+        <p><img src="generator.php" alt="Code de vérification"/></p>
+
+        <p>
+          <label for="code">Merci de retaper le code de l'image ci-dessus</label> :
+          <input type="text" name="verif_code" id="code" />
+        </p>
+
+        <p><input type="submit" value="Inscription" /></p>
+      </form>
+    </article>
+  </section>
+</body>
+</html>

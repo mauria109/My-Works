@@ -1,2 +1,3 @@
-# My-Works
-My dev works
+# captcha-generator
+
+A Captcha generator in PHP and XHTML
